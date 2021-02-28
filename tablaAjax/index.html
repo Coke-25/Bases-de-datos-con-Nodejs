@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Harry Potter</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link href="https://getbootstrap.com/docs/4.4/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link href="index.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div id="divMSG" class="col-12">
+
+                </div>
+            </div>
+            <div class="row rowBotones">
+                <div class="col-12">
+                    <button id="btnTodos" class="btn btn-success">Mostrar todos</button>
+                    <button id="btnHumanos" class="btn btn-primary">Mostrar humanos</button>
+                    <button id="btn1979" class="btn btn-primary">Anteriores al 1979</button>
+                    <button id="btnVaritas" class="btn btn-primary">Varita de Acebo</button>
+                    <button id="btnVivos" class="btn btn-primary">Estudiantes vivos</button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <table class="table table-striped">
+                        <thead class="table-dark">
+                            <tr>
+                                <th>Imagen</th>                                
+                                <th>Nombre</th>
+                                <th>Especie</th>
+                                <th>Género</th>
+                                <th>Casa</th>
+                                <th>Año de nacimiento</th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody id="tbody" class="table-light">
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <h2>Agregar un personaje:</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <input type="text" id="url" placeholder="Url Imagen" class="form-control">
+                    <input type="text" id="nombre" placeholder="Nombre" class="form-control" required>
+                    <input type="text" id="especie" placeholder="Especie" class="form-control" required>
+                    <input type="text" id="genero" placeholder="Género" class="form-control" required>
+                    <input type="text" id="casa" placeholder="Casa" class="form-control" required>
+                    <input type="number" id="nacimiento" placeholder="Año nacimiento" class="form-control" required>
+                    <br>
+                    <input id="btnAgregar" type="button" value="Agregar" class="btn btn-success">
+                </div>
+            </div>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>

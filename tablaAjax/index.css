@@ -1,0 +1,20 @@
+body{
+    background-color: LightGray;
+}
+table{
+    margin-top: 1rem;
+}
+img{
+    width: 150px;
+}
+#divMSG{
+    margin-top: 3rem;
+}
+input{
+    width: 16%!important;
+    display: inline-block!important;
+}
+#btnAgregar{
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+}
